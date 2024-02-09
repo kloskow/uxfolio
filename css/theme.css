@@ -27,6 +27,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #202020;
+  --bs-lime: #c3fc3d;
   --bs-primary: #1717e5;
   --bs-secondary: #8a8a8e;
   --bs-success: #198754;
@@ -35,6 +36,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #202020;
+  --bs-lime: 195, 252, 61;
   --bs-primary-rgb: 23, 23, 229;
   --bs-secondary-rgb: 138, 138, 142;
   --bs-success-rgb: 25, 135, 84;
@@ -6591,6 +6593,11 @@ textarea.form-control-lg {
   word-break: break-word !important; }
 
 /* rtl:end:remove */
+
+.text-lime {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-lime-rgb), var(--bs-text-opacity)) !important; }
+
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; }
